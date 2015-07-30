@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59345" started-at="2015-07-23T18:01:14Z" finished-at="2015-07-23T18:02:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="59345" started-at="2015-07-23T18:01:14Z" finished-at="2015-07-23T18:02:13Z">
+      <class name="WebdriverPro.web.Script">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:WebdriverPro.web.Script@70e08379]" name="launchBrowser" is-config="true" duration-ms="35122" started-at="2015-07-23T23:31:14Z" finished-at="2015-07-23T23:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testCase()[pri:0, instance:WebdriverPro.web.Script@70e08379]" name="testCase" duration-ms="20907" started-at="2015-07-23T23:31:49Z" finished-at="2015-07-23T23:32:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:WebdriverPro.web.Script@70e08379]" name="quitBrowser" is-config="true" duration-ms="3085" started-at="2015-07-23T23:32:10Z" finished-at="2015-07-23T23:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- WebdriverPro.web.Script -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="114751" started-at="2015-07-30T16:18:18Z" finished-at="2015-07-30T16:20:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="114751" started-at="2015-07-30T16:18:18Z" finished-at="2015-07-30T16:20:13Z">
+      <class name="WebdriverPro.web.tests.LoginTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:WebdriverPro.web.tests.LoginTest@4534005b]" name="launchBrowser" is-config="true" duration-ms="41074" started-at="2015-07-30T21:48:18Z" finished-at="2015-07-30T21:48:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:WebdriverPro.web.tests.LoginTest@4534005b]" name="verifyLogin" duration-ms="72115" started-at="2015-07-30T21:48:59Z" finished-at="2015-07-30T21:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:WebdriverPro.web.tests.LoginTest@4534005b]" name="quitBrowser" is-config="true" duration-ms="1519" started-at="2015-07-30T21:50:11Z" finished-at="2015-07-30T21:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- WebdriverPro.web.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
