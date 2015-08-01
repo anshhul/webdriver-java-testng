@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="WebdriverPro.web.Script">
+      <class name="WebdriverPro.web.tests.LoginTest">
         <methods>
+          <include name="takeScreenshot"/>
           <include name="launchBrowser"/>
-          <include name="testCase"/>
+          <include name="quitBrowser"/>
+          <include name="verifyLogin"/>
         </methods>
-      </class> <!-- WebdriverPro.web.Script -->
+      </class> <!-- WebdriverPro.web.tests.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -86,3 +86,449 @@ DEBUG Forwarding maximizeWindow on session b0661ddb-e3f2-4afa-81aa-80e24b0cf286 
 DEBUG Forwarding maximizeWindow on session b0661ddb-e3f2-4afa-81aa-80e24b0cf286 to remote org.apache.http.impl.execchain.MainClientExec - Connection discarded
 DEBUG Forwarding maximizeWindow on session b0661ddb-e3f2-4afa-81aa-80e24b0cf286 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: Close connection
 DEBUG Forwarding maximizeWindow on session b0661ddb-e3f2-4afa-81aa-80e24b0cf286 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {}->http://127.0.0.1:7057][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding newSession on session null to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding newSession on session null to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7059
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7059
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:57815<->127.0.0.1:7059
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Executing request POST /hub/session HTTP/1.1
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> POST /hub/session HTTP/1.1
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Content-Length: 105
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Host: 127.0.0.1:7059
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "POST /hub/session HTTP/1.1[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Content-Length: 105[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Host: 127.0.0.1:7059[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 >> "{"desiredCapabilities":{"platform":"ANY","browserName":"firefox","version":""},"requiredCapabilities":{}}"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "content-type: application/json; charset=UTF-8[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "connection: close[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "content-length: 421[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "server: httpd.js[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "date: Thu, 30 Jul 2015 16:18:58 GMT[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << content-type: application/json; charset=UTF-8
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << connection: close
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << content-length: 421
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << server: httpd.js
+DEBUG Forwarding newSession on session null to remote org.apache.http.headers - http-outgoing-0 << date: Thu, 30 Jul 2015 16:18:58 GMT
+DEBUG Forwarding newSession on session null to remote org.apache.http.wire - http-outgoing-0 << "{"name":"newSession","sessionId":"9d94125a-1fbc-42cb-8e8e-e1ff87366bc2","status":0,"value":{"cssSelectorsEnabled":true,"browserName":"firefox","handlesAlerts":true,"javascriptEnabled":true,"nativeEvents":false,"platform":"WINDOWS","rotatable":false,"takesScreenshot":true,"version":"40.0","webStorageEnabled":true,"applicationCacheEnabled":true,"databaseEnabled":true,"locationContextEnabled":true,"acceptSslCerts":true}}"
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Shutdown connection
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+DEBUG Forwarding newSession on session null to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7059
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7059
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:57818<->127.0.0.1:7059
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Executing request POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/window/current/maximize HTTP/1.1
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-1 >> POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/window/current/maximize HTTP/1.1
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-1 >> Content-Length: 26
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-1 >> Host: 127.0.0.1:7059
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-1 >> Connection: Keep-Alive
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 >> "POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/window/current/maximize HTTP/1.1[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 >> "Content-Length: 26[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 >> "Host: 127.0.0.1:7059[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 >> "[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 >> "{"windowHandle":"current"}"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 << "content-type: application/json; charset=UTF-8[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 << "connection: close[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 << "content-length: 98[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 << "server: httpd.js[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 << "date: Thu, 30 Jul 2015 16:18:59 GMT[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 << "[\r][\n]"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-1 << HTTP/1.1 200 OK
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-1 << content-type: application/json; charset=UTF-8
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-1 << connection: close
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-1 << content-length: 98
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-1 << server: httpd.js
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-1 << date: Thu, 30 Jul 2015 16:18:59 GMT
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-1 << "{"name":"maximizeWindow","sessionId":"9d94125a-1fbc-42cb-8e8e-e1ff87366bc2","status":0,"value":""}"
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: Shutdown connection
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: Close connection
+DEBUG Forwarding maximizeWindow on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 2][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7059
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7059
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:57820<->127.0.0.1:7059
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Executing request POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/url HTTP/1.1
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-2 >> POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/url HTTP/1.1
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-2 >> Content-Type: application/json; charset=utf-8
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-2 >> Content-Length: 63
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-2 >> Host: 127.0.0.1:7059
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-2 >> Connection: Keep-Alive
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 >> "POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/url HTTP/1.1[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 >> "Content-Length: 63[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 >> "Host: 127.0.0.1:7059[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 >> "[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 >> "{"url":"http://www.lufthansa.com/online/portal/lh/ua/homepage"}"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 << "content-type: application/json; charset=UTF-8[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 << "connection: close[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 << "content-length: 87[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 << "server: httpd.js[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 << "date: Thu, 30 Jul 2015 16:19:16 GMT[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 << "[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-2 << HTTP/1.1 200 OK
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-2 << content-type: application/json; charset=UTF-8
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-2 << connection: close
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-2 << content-length: 87
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-2 << server: httpd.js
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-2 << date: Thu, 30 Jul 2015 16:19:16 GMT
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-2 << "{"name":"get","sessionId":"9d94125a-1fbc-42cb-8e8e-e1ff87366bc2","status":0,"value":""}"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-2: Shutdown connection
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-2: Close connection
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 2][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 3][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7059
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7059
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:57854<->127.0.0.1:7059
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Executing request POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/element HTTP/1.1
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-3 >> POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/element HTTP/1.1
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-3 >> Content-Type: application/json; charset=utf-8
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-3 >> Content-Length: 75
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-3 >> Host: 127.0.0.1:7059
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-3 >> Connection: Keep-Alive
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 >> "POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/element HTTP/1.1[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 >> "Content-Length: 75[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 >> "Host: 127.0.0.1:7059[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 >> "[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 >> "{"using":"css selector","value":"#header-profile a.lh-layerhandler-toggle"}"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 << "content-type: application/json; charset=UTF-8[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 << "connection: close[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 << "content-length: 224[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 << "server: httpd.js[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 << "date: Thu, 30 Jul 2015 16:19:16 GMT[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 << "[\r][\n]"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-3 << HTTP/1.1 200 OK
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-3 << content-type: application/json; charset=UTF-8
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-3 << connection: close
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-3 << content-length: 224
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-3 << server: httpd.js
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-3 << date: Thu, 30 Jul 2015 16:19:16 GMT
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-3 << "{"name":"findElement","sessionId":"9d94125a-1fbc-42cb-8e8e-e1ff87366bc2","status":0,"value":{"ELEMENT":"{b0b69432-3a3b-4141-9da0-2be270413f57}","element-6066-11e4-a52e-4f735466cecf":"{b0b69432-3a3b-4141-9da0-2be270413f57}"}}"
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-3: Shutdown connection
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-3: Close connection
+DEBUG Forwarding findElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 3][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 4][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7059
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7059
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:57855<->127.0.0.1:7059
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Executing request POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/element/%7Bb0b69432-3a3b-4141-9da0-2be270413f57%7D/click HTTP/1.1
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-4 >> POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/element/%7Bb0b69432-3a3b-4141-9da0-2be270413f57%7D/click HTTP/1.1
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-4 >> Content-Type: application/json; charset=utf-8
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-4 >> Content-Length: 47
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-4 >> Host: 127.0.0.1:7059
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-4 >> Connection: Keep-Alive
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 >> "POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/element/%7Bb0b69432-3a3b-4141-9da0-2be270413f57%7D/click HTTP/1.1[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 >> "Content-Length: 47[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 >> "Host: 127.0.0.1:7059[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 >> "[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 >> "{"id":"{b0b69432-3a3b-4141-9da0-2be270413f57}"}"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 << "content-type: application/json; charset=UTF-8[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 << "connection: close[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 << "content-length: 98[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 << "server: httpd.js[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 << "date: Thu, 30 Jul 2015 16:19:59 GMT[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 << "[\r][\n]"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-4 << HTTP/1.1 200 OK
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-4 << content-type: application/json; charset=UTF-8
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-4 << connection: close
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-4 << content-length: 98
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-4 << server: httpd.js
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-4 << date: Thu, 30 Jul 2015 16:19:59 GMT
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-4 << "{"name":"clickElement","sessionId":"9d94125a-1fbc-42cb-8e8e-e1ff87366bc2","status":0,"value":"ok"}"
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-4: Shutdown connection
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-4: Close connection
+DEBUG Forwarding clickElement on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 4][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 5][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7059
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7059
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:57883<->127.0.0.1:7059
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Executing request POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/url HTTP/1.1
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-5 >> POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/url HTTP/1.1
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-5 >> Content-Type: application/json; charset=utf-8
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-5 >> Content-Length: 63
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-5 >> Host: 127.0.0.1:7059
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-5 >> Connection: Keep-Alive
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-5 >> User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-5 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 >> "POST /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/url HTTP/1.1[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 >> "Content-Length: 63[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 >> "Host: 127.0.0.1:7059[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 >> "User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 >> "[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 >> "{"url":"http://www.lufthansa.com/online/portal/lh/ua/homepage"}"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 << "content-type: application/json; charset=UTF-8[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 << "connection: close[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 << "content-length: 87[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 << "server: httpd.js[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 << "date: Thu, 30 Jul 2015 16:20:11 GMT[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 << "[\r][\n]"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-5 << HTTP/1.1 200 OK
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-5 << content-type: application/json; charset=UTF-8
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-5 << connection: close
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-5 << content-length: 87
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-5 << server: httpd.js
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-5 << date: Thu, 30 Jul 2015 16:20:11 GMT
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-5 << "{"name":"get","sessionId":"9d94125a-1fbc-42cb-8e8e-e1ff87366bc2","status":0,"value":""}"
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-5: Shutdown connection
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-5: Close connection
+DEBUG Forwarding get on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 5][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 6][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7059
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7059
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:57899<->127.0.0.1:7059
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Executing request GET /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/title HTTP/1.1
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-6 >> GET /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/title HTTP/1.1
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-6 >> Cache-Control: no-cache
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-6 >> Host: 127.0.0.1:7059
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-6 >> Connection: Keep-Alive
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-6 >> User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-6 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 >> "GET /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/title HTTP/1.1[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 >> "Cache-Control: no-cache[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 >> "Host: 127.0.0.1:7059[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 >> "[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 << "content-type: application/json; charset=UTF-8[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 << "connection: close[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 << "content-length: 171[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 << "server: httpd.js[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 << "date: Thu, 30 Jul 2015 16:20:11 GMT[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 << "[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-6 << HTTP/1.1 200 OK
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-6 << content-type: application/json; charset=UTF-8
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-6 << connection: close
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-6 << content-length: 171
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-6 << server: httpd.js
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-6 << date: Thu, 30 Jul 2015 16:20:11 GMT
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-6 << "{"name":"getTitle","sessionId":"9d94125a-1fbc-42cb-8e8e-e1ff87366bc2","status":0,"value":"Homepage: Flights worldwide. Discounts. Online Check-in. - Lufthansa [0xc2][0xae] Ukraine"}"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-6: Shutdown connection
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-6: Close connection
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 6][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 7][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7059
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7059
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:57900<->127.0.0.1:7059
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Executing request GET /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/title HTTP/1.1
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-7 >> GET /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/title HTTP/1.1
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-7 >> Cache-Control: no-cache
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-7 >> Host: 127.0.0.1:7059
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-7 >> Connection: Keep-Alive
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-7 >> User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-7 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 >> "GET /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2/title HTTP/1.1[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 >> "Cache-Control: no-cache[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 >> "Host: 127.0.0.1:7059[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 >> "User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 >> "[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 << "content-type: application/json; charset=UTF-8[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 << "connection: close[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 << "content-length: 171[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 << "server: httpd.js[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 << "date: Thu, 30 Jul 2015 16:20:11 GMT[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 << "[\r][\n]"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-7 << HTTP/1.1 200 OK
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-7 << content-type: application/json; charset=UTF-8
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-7 << connection: close
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-7 << content-length: 171
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-7 << server: httpd.js
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-7 << date: Thu, 30 Jul 2015 16:20:11 GMT
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-7 << "{"name":"getTitle","sessionId":"9d94125a-1fbc-42cb-8e8e-e1ff87366bc2","status":0,"value":"Homepage: Flights worldwide. Discounts. Online Check-in. - Lufthansa [0xc2][0xae] Ukraine"}"
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-7: Shutdown connection
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-7: Close connection
+DEBUG Forwarding getTitle on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 7][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+INFO main WebdriverPro.web.tests.LoginTest - Title:Homepage: Flights worldwide. Discounts. Online Check-in. - Lufthansa ® Ukraine
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 8][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7059
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7059
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:57901<->127.0.0.1:7059
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Executing request DELETE /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 HTTP/1.1
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-8 >> DELETE /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 HTTP/1.1
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-8 >> Host: 127.0.0.1:7059
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-8 >> Connection: Keep-Alive
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-8 >> User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-8 >> Accept-Encoding: gzip,deflate
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 >> "DELETE /hub/session/9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 HTTP/1.1[\r][\n]"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 >> "Host: 127.0.0.1:7059[\r][\n]"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 >> "User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_79)[\r][\n]"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 >> "[\r][\n]"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 << "content-type: application/json; charset=UTF-8[\r][\n]"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 << "connection: close[\r][\n]"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 << "content-length: 88[\r][\n]"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 << "server: httpd.js[\r][\n]"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 << "date: Thu, 30 Jul 2015 16:20:11 GMT[\r][\n]"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 << "[\r][\n]"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-8 << HTTP/1.1 200 OK
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-8 << content-type: application/json; charset=UTF-8
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-8 << connection: close
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-8 << content-length: 88
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-8 << server: httpd.js
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.headers - http-outgoing-8 << date: Thu, 30 Jul 2015 16:20:11 GMT
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.wire - http-outgoing-8 << "{"name":"quit","sessionId":"9d94125a-1fbc-42cb-8e8e-e1ff87366bc2","status":0,"value":""}"
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-8: Shutdown connection
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Connection discarded
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-8: Close connection
+DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 8][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - Title:Homepage: Flights worldwide. Discounts. Online Check-in. - Lufthansa ® Ukraine
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=chromeDriverValue=.\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=chromeDriverValue=\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=chromeDriverValue=.\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=chromeDriverValue=.\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=chromeDriverValue=.\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyLogin
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.WebdriverTestBase -  test method: verifyLogin
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyLogin
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.WebdriverTestBase -  test method: verifyLogin
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyLogin
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyLogin

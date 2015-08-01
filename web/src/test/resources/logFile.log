@@ -475,3 +475,65 @@ DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote 
 DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.execchain.MainClientExec - Connection discarded
 DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-8: Close connection
 DEBUG Forwarding quit on session 9d94125a-1fbc-42cb-8e8e-e1ff87366bc2 to remote org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 8][route: {}->http://127.0.0.1:7059][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - Title:Homepage: Flights worldwide. Discounts. Online Check-in. - Lufthansa ® Ukraine
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=chromeDriverValue=.\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=chromeDriverValue=\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=chromeDriverValue=.\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=chromeDriverValue=.\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key=chromeDriverValue=.\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyLogin
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.WebdriverTestBase -  test method: verifyLogin
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyLogin
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.WebdriverTestBase -  test method: verifyLogin
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyLogin
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyLogin
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyLogin
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyLogin
