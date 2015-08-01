@@ -532,3 +532,8 @@ INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: ve
 INFO main WebdriverPro.web.tests.LoginTest - test started...
 INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
 INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyLogin
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyLogin
+INFO main WebdriverPro.web.tests.LoginTest - test started...
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyLogin
