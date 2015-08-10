@@ -1,25 +1,55 @@
 package WebdriverPro.web.framework;
 
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public abstract class Elements {
 
 	public WebDriver driver;
+	private String baseWindow; 
 	
 	public Elements(WebDriver driver){
 		this.driver = driver;
 	}
 	
 	
+	
+	// -------------Switch-----------------
+	
+	public void switchToNewWindow(){
+		
+	try {
+		baseWindow = driver.getWindowHandle();
+		
+		Set<String> handles = driver.getWindowHandles();
+		
+		for (String handle : handles) {
+			if(!handle.equals(baseWindow)){
+ 				driver.switchTo().window(handle);
+			}
+		}
+		
+	} catch (Throwable e) {
+		// TODO: handle exception
+		e.printStackTrace();
+		System.out.println("");
+	}
+	
+	}
+	
+	public void switchBackToBaseWindow(){
+		driver.close();
+		driver.switchTo().window(baseWindow);
+	}
 	
 	// -------------Waits--------------
 	
@@ -90,6 +120,28 @@ public abstract class Elements {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(element).build().perform();
 	}
+	
+	// -------------Drop-Down-------------------
+	
+	
+	public void selectDropdownOption(WebElement element, String option){
+		Select select = new Select(element);
+		select.selectByVisibleText(option);
+	}
+	
+	public void clickOption(By listItems, String option){
+	
+		List<WebElement>  li = getElements(listItems);
+		
+		for (WebElement item : li) {
+			if(item.getText().contains(option)){
+				item.click();
+				break;
+			}
+		}
+		
+	}
+	
 	
 	
 }

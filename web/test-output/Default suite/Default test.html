@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Aug 01 17:30:19 IST 2015</td>
+<td>Started on:</td><td>Mon Aug 10 20:29:46 IST 2015</td>
 </tr>
-<tr><td>Total time:</td><td>38 seconds (38730 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (130 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,29 +67,24 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='WebdriverPro.web.tests.LoginTest.verifyLogin()'><b>verifyLogin</b><br>Test class: WebdriverPro.web.tests.LoginTest</td>
-<td><div><pre>java.lang.AssertionError: Objects not matched expected [abccdef] but found [test]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at WebdriverPro.web.framework.WebdriverTestBase.verify(WebdriverTestBase.java:72)
-	at WebdriverPro.web.tests.LoginTest.verifyLogin(LoginTest.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+<td title='WebdriverPro.web.tests.ParameterTestNG.verifyTestNGParameters()'><b>verifyTestNGParameters</b><br>Test class: WebdriverPro.web.tests.ParameterTestNG</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;email&apos; is required by @Test on method verifyTestNGParameters but has not been marked @Optional or defined
+in C:\Users\ANNA\AppData\Local\Temp\testng-eclipse--290551035\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:148)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1276)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:773)
@@ -106,21 +101,16 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1446735914", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1446735914'><pre>java.lang.AssertionError: Objects not matched expected [abccdef] but found [test]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at WebdriverPro.web.framework.WebdriverTestBase.verify(WebdriverTestBase.java:72)
-	at WebdriverPro.web.tests.LoginTest.verifyLogin(LoginTest.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+</pre></div><a href='#' onClick='toggleBox("stack-trace844964335", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace844964335'><pre>org.testng.TestNGException: 
+Parameter &apos;email&apos; is required by @Test on method verifyTestNGParameters but has not been marked @Optional or defined
+in C:\Users\ANNA\AppData\Local\Temp\testng-eclipse--290551035\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:148)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1276)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:773)
@@ -138,8 +128,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 </pre></div></td>
-<td>12</td>
-<td>WebdriverPro.web.tests.LoginTest@5e36d9e4</td></tr>
+<td>0</td>
+<td>WebdriverPro.web.tests.ParameterTestNG@65c7bbfc</td></tr>
 </table><p>
 </body>
 </html>

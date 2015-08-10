@@ -1,12 +1,8 @@
 package WebdriverPro.web.framework;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-
 import org.apache.log4j.Logger;
 
 public class PropertyManager {
@@ -30,7 +26,7 @@ static	Logger logger = Logger.getLogger(PropertyManager.class);
 			e.printStackTrace();
 		}
 		 String value = props.getProperty(key);
-		 logger.info("Key="+key+"Value="+value);
+		 logger.info("Key = "+key+"  Value = "+value);
 		return value;
 	}
 	

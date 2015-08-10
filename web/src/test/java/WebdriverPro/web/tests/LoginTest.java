@@ -12,20 +12,21 @@ public class LoginTest extends WebdriverTestBase {
 	Logger logger = Logger.getLogger(LoginTest.class);	
 	
 	@Test
-	public void verifyLogin(){
+	public void verifyHomePage(){
 		
-		logger.info("test started...");
-		verify("test", "test");
-		
+		logger.info("Test Method started: verifyHomePage()");
 		
 		HomePage homePage = new HomePage(driver);
 		
 		homePage.navigateToHomePage();
 		
-		verify("test", "abccdef");
+		homePage.selectEconomy("Business");
 		
-		homePage.hoverOverMenu("Flights & Deals");
-		
+		homePage.SelectMenuOptions("Corporate Customers", "PartnerPlusBenefit");
+		homePage.switchToNewWindow();
+		homePage.clickEurope();
+		homePage.switchBackToBaseWindow();
+			
 		homePage.clickLogin();
 		
 		homePage.navigateToHomePage();
@@ -33,8 +34,12 @@ public class LoginTest extends WebdriverTestBase {
 		
 		logger.info("Title:" + driver.getTitle());
 		
-		
-
+	}
+	
+	
+	
+	@Test
+	public void test2(){
 		
 	}
 	

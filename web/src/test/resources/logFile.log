@@ -537,3 +537,72 @@ INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: ve
 INFO main WebdriverPro.web.tests.LoginTest - test started...
 INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
 INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyLogin
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyHomePage
+INFO main WebdriverPro.web.tests.LoginTest - Test Method started: verifyHomePage()
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyHomePage
+INFO main WebdriverPro.web.tests.LoginTest - Test Method started: verifyHomePage()
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyHomePage
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyHomePage
+INFO main WebdriverPro.web.tests.LoginTest - Test Method started: verifyHomePage()
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyHomePage
+INFO main WebdriverPro.web.tests.LoginTest - Test Method started: verifyHomePage()
+INFO main WebdriverPro.web.framework.PropertyManager - Key=homePageURLValue=http://www.lufthansa.com/online/portal/lh/ua/homepage
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyTestNGParameters
+INFO main WebdriverPro.web.tests.ParameterTestNG - Test Method started: verifyTestNGParameters()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyTestNGParameters
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyTestNGParameters
+INFO main WebdriverPro.web.tests.ParameterTestNG - Test Method started: verifyTestNGParameters()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyTestNGParameters
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyDataProviderClass
+INFO main WebdriverPro.web.tests.DataProviderClassTest - Test Method started: testDataProviderClass()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyDataProviderClass
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyDataProviderClass
+INFO main WebdriverPro.web.tests.DataProviderClassTest - Test Method started: testDataProviderClass()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyDataProviderClass
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyDataProviderClass
+INFO main WebdriverPro.web.tests.DataProviderClassTest - Test Method started: testDataProviderInTest()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyDataProviderClass
+INFO main WebdriverPro.web.framework.PropertyManager - Key=browserValue=firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyDataProviderClass
+INFO main WebdriverPro.web.tests.DataProviderClassTest - Test Method started: testDataProviderInTest()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyDataProviderClass
+INFO main WebdriverPro.web.framework.PropertyManager - Key = browser  Value = firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: testDataProviderInTest
+INFO main WebdriverPro.web.tests.DataProviderClassTest - Test Method started: testDataProviderInTest()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :testDataProviderInTest
+INFO main WebdriverPro.web.framework.PropertyManager - Key = browser  Value = firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: testDataProviderInTest
+INFO main WebdriverPro.web.tests.DataProviderClassTest - Test Method started: testDataProviderInTest()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :testDataProviderInTest
+INFO main WebdriverPro.web.framework.PropertyManager - Key = browser  Value = firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: testDataProviderInTestMethod
+INFO main WebdriverPro.web.tests.DataProviderClassTest - Test Method started: testDataProviderInTestMethod()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :testDataProviderInTestMethod
+INFO main WebdriverPro.web.framework.PropertyManager - Key = browser  Value = firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: testDataProviderInTestMethod
+INFO main WebdriverPro.web.tests.DataProviderClassTest - Test Method started: testDataProviderInTestMethod()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :testDataProviderInTestMethod
+INFO main WebdriverPro.web.framework.PropertyManager - Key = browser  Value = firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: testDataProviderInTestMethod
+INFO main WebdriverPro.web.tests.DataProviderClassTest - Test Method started: testDataProviderInTestMethod()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :testDataProviderInTestMethod
+INFO main WebdriverPro.web.framework.PropertyManager - Key = browser  Value = firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyTestNGParameters
+INFO main WebdriverPro.web.tests.ParameterTestNG - Test Method started: verifyTestNGParameters()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyTestNGParameters
+INFO main WebdriverPro.web.framework.PropertyManager - Key = browser  Value = firefox
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyTestNGParameters
+INFO main WebdriverPro.web.tests.ParameterTestNG - Test Method started: verifyTestNGParameters()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyTestNGParameters
