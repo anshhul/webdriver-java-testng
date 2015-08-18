@@ -1,25 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="59345" started-at="2015-07-23T18:01:14Z" finished-at="2015-07-23T18:02:13Z">
+  <suite name="Suite" duration-ms="31195" started-at="2015-08-14T16:23:27Z" finished-at="2015-08-14T16:23:58Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="59345" started-at="2015-07-23T18:01:14Z" finished-at="2015-07-23T18:02:13Z">
-      <class name="WebdriverPro.web.Script">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:WebdriverPro.web.Script@70e08379]" name="launchBrowser" is-config="true" duration-ms="35122" started-at="2015-07-23T23:31:14Z" finished-at="2015-07-23T23:31:49Z">
+    <test name="Test" duration-ms="31195" started-at="2015-08-14T16:23:27Z" finished-at="2015-08-14T16:23:58Z">
+      <class name="WebdriverPro.web.tests.LoginTest">
+        <test-method status="PASS" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:WebdriverPro.web.tests.LoginTest@67aff9e8]" name="launchBrowser" is-config="true" duration-ms="15763" started-at="2015-08-14T21:53:27Z" finished-at="2015-08-14T21:53:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WebdriverPro.web.tests.LoginTest.test2()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testCase()[pri:0, instance:WebdriverPro.web.Script@70e08379]" name="testCase" duration-ms="20907" started-at="2015-07-23T23:31:49Z" finished-at="2015-07-23T23:32:10Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:WebdriverPro.web.tests.LoginTest@67aff9e8]" name="test2" duration-ms="4" started-at="2015-08-14T21:53:43Z" finished-at="2015-08-14T21:53:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:WebdriverPro.web.Script@70e08379]" name="quitBrowser" is-config="true" duration-ms="3085" started-at="2015-07-23T23:32:10Z" finished-at="2015-07-23T23:32:13Z">
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:WebdriverPro.web.tests.LoginTest@67aff9e8]" name="takeScreenshot" is-config="true" duration-ms="263" started-at="2015-08-14T21:53:43Z" finished-at="2015-08-14T21:53:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=LoginTest.test2()[pri:0, instance:WebdriverPro.web.tests.LoginTest@67aff9e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:WebdriverPro.web.tests.LoginTest@67aff9e8]" name="quitBrowser" is-config="true" duration-ms="1539" started-at="2015-08-14T21:53:43Z" depends-on-methods="WebdriverPro.web.framework.WebdriverTestBase.takeScreenshot" finished-at="2015-08-14T21:53:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- WebdriverPro.web.Script -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:WebdriverPro.web.tests.LoginTest@67aff9e8]" name="launchBrowser" is-config="true" duration-ms="12542" started-at="2015-08-14T21:53:45Z" finished-at="2015-08-14T21:53:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WebdriverPro.web.tests.LoginTest.verifyHomePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyHomePage()[pri:0, instance:WebdriverPro.web.tests.LoginTest@67aff9e8]" name="verifyHomePage" duration-ms="10" started-at="2015-08-14T21:53:57Z" finished-at="2015-08-14T21:53:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:WebdriverPro.web.tests.LoginTest@67aff9e8]" name="takeScreenshot" is-config="true" duration-ms="250" started-at="2015-08-14T21:53:57Z" finished-at="2015-08-14T21:53:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePage status=SUCCESS method=LoginTest.verifyHomePage()[pri:0, instance:WebdriverPro.web.tests.LoginTest@67aff9e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:WebdriverPro.web.tests.LoginTest@67aff9e8]" name="quitBrowser" is-config="true" duration-ms="788" started-at="2015-08-14T21:53:57Z" depends-on-methods="WebdriverPro.web.framework.WebdriverTestBase.takeScreenshot" finished-at="2015-08-14T21:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- WebdriverPro.web.tests.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
