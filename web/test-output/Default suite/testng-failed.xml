@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="WebdriverPro.web.tests.ParameterTestNG">
+      <class name="WebdriverPro.web.tests.LoginTest">
         <methods>
-          <include name="verifyTestNGParameters"/>
+          <include name="launchBrowser"/>
+          <include name="quitBrowser"/>
+          <include name="test2"/>
+          <include name="verifyHomePage"/>
         </methods>
-      </class> <!-- WebdriverPro.web.tests.ParameterTestNG -->
+      </class> <!-- WebdriverPro.web.tests.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,12 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <parameter name="email" value="jmary@lykal.com"/>
-  <parameter name="name" value="Mary joff"/>
   <test name="Test(failed)">
     <classes>
       <class name="WebdriverPro.web.tests.ParameterTestNG">
         <methods>
+          <include name="launchBrowser"/>
           <include name="verifyTestNGParameters"/>
+          <include name="quitBrowser"/>
         </methods>
       </class> <!-- WebdriverPro.web.tests.ParameterTestNG -->
     </classes>
