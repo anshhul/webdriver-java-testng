@@ -5,9 +5,10 @@ import org.testng.annotations.Test;
 
 
 import WebdriverPro.web.framework.PropertyManager;
+//import WebdriverPro.web.framework.WebdriverTestBase;
 
 
-public class Script extends BasePage {
+public class Script extends WebdriverTestBase {
 	
 	Logger logger = Logger.getLogger(Script.class) ;
 	
