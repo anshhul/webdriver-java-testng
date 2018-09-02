@@ -47,4 +47,12 @@ public class LoginTest extends WebdriverTestBase {
 		
 	}
 	
+	@Test
+	public void test3(){
+		
+		System.out.println("Test 2 is falied");
+		verify("String", 1);
+		
+	}
+	
 }

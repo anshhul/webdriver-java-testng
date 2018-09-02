@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 import WebdriverPro.web.framework.PropertyManager;
 //import WebdriverPro.web.framework.WebdriverTestBase;
+import WebdriverPro.web.framework.WebdriverTestBase;
 
 
 public class Script extends WebdriverTestBase {

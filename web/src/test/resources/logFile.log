@@ -606,3 +606,25 @@ INFO main WebdriverPro.web.framework.PropertyManager - Key = browser  Value = fi
 INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyTestNGParameters
 INFO main WebdriverPro.web.tests.ParameterTestNG - Test Method started: verifyTestNGParameters()
 INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyTestNGParameters
+INFO main WebdriverPro.web.framework.PropertyManager - Key = browser  Value = chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key = chromeDriver  Value = .\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: test2
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :test2
+INFO main WebdriverPro.web.framework.PropertyManager - Key = browser  Value = chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key = chromeDriver  Value = .\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyHomePage
+INFO main WebdriverPro.web.tests.LoginTest - Test Method started: verifyHomePage()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyHomePage
+INFO main WebdriverPro.web.framework.PropertyManager - Key = browser  Value = chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key = chromeDriver  Value = .\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: test2
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :test2
+INFO main WebdriverPro.web.framework.PropertyManager - Key = browser  Value = chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key = chromeDriver  Value = .\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: verifyHomePage
+INFO main WebdriverPro.web.tests.LoginTest - Test Method started: verifyHomePage()
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :verifyHomePage
+INFO main WebdriverPro.web.framework.PropertyManager - Key = browser  Value = chrome
+INFO main WebdriverPro.web.framework.PropertyManager - Key = chromeDriver  Value = .\src\test\resources\chromedriver.exe
+INFO main WebdriverPro.web.framework.WebdriverTestBase - Started test method: test3
+INFO main WebdriverPro.web.framework.WebdriverTestBase - End of test method :test3

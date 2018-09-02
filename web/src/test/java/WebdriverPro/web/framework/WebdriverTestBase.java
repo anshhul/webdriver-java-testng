@@ -51,7 +51,8 @@ public abstract class WebdriverTestBase {
 
 		String time = new SimpleDateFormat("ddMMMyyy_hhmmaaa").format(Calendar.getInstance().getTime());
 		try {
-			FileUtils.copyFile(srcFile, new File("C:\\screenshots\\"+result.getInstanceName()+"_"+result.getName()+time+".png"));
+			// WebdriverPro.web.tests.LoginTest_verifyHomePage02Sep2018_0349AM.png
+			FileUtils.copyFile(srcFile, new File("C:\\screenshots\\"+result.getInstanceName()+"_"+result.getName()+"_"+time+".png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
