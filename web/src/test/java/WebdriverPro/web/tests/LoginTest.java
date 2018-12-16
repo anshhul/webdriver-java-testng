@@ -47,7 +47,7 @@ public class LoginTest extends WebdriverTestBase {
 		
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void test3(){
 		
 		System.out.println("Test 2 is falied");

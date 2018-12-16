@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Method TestNg suite file">
+
+	<test name="Method suite tests">
+
+		<classes>
+
+			<class name="WebdriverPro.web.tests.testNGpackage.LogInTest">
+			
+			<methods>
+			
+			<include name="testValidLogin"/>
+			<include name="testInvalidLogin"/>
+			<!-- <exclude name=""/> -->
+			
+			</methods>
+			
+			</class>
+			
+			<class name="WebdriverPro.web.tests.testNGpackage.RegisterUserTest" />
+			<class name="WebdriverPro.web.tests.testNGpackage.UserTypeTests" />
+
+		</classes>
+
+	</test>
+
+</suite>

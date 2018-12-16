@@ -1,0 +1,125 @@
+﻿test commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   web/.gitignore
+#	new file:   web/src/test/java/WebdriverPro/web/framework/Testing.java
+#	modified:   web/src/test/java/WebdriverPro/web/framework/WebdriverTestBase.java
+#	new file:   web/src/test/java/WebdriverPro/web/programs/RemoveStringJunk.java
+#	new file:   web/src/test/java/WebdriverPro/web/programs/ReverseString.java
+#	modified:   web/src/test/java/WebdriverPro/web/tests/LoginTest.java
+#	new file:   web/src/test/java/WebdriverPro/web/tests/testNGpackage/LogInTest.java
+#	new file:   web/src/test/java/WebdriverPro/web/tests/testNGpackage/RegisterUserTest.java
+#	new file:   web/src/test/java/WebdriverPro/web/tests/testNGpackage/UserTypeTests.java
+#	modified:   web/src/test/resources/logFile.log
+#	new file:   web/src/test/resources/suites/groupsSuite.xml
+#	new file:   web/src/test/resources/suites/methodSuite.xml
+#	new file:   web/src/test/resources/suites/packageSuite.xml
+#	new file:   web/src/test/resources/suites/testNGSuite.xml
+#	modified:   web/target/classes/META-INF/maven/WebdriverPro/web/pom.properties
+#	modified:   web/target/surefire-reports/Suite/Test.html
+#	modified:   web/target/surefire-reports/Suite/Test.xml
+#	modified:   web/target/surefire-reports/TEST-TestSuite.xml
+#	modified:   web/target/surefire-reports/TestSuite.txt
+#	modified:   web/target/surefire-reports/emailable-report.html
+#	modified:   web/target/surefire-reports/index.html
+#	modified:   web/target/surefire-reports/junitreports/TEST-WebdriverPro.web.tests.LoginTest.xml
+#	modified:   web/target/surefire-reports/old/Suite/classes.html
+#	modified:   web/target/surefire-reports/old/Suite/methods-alphabetical.html
+#	modified:   web/target/surefire-reports/old/Suite/methods-not-run.html
+#	modified:   web/target/surefire-reports/old/Suite/methods.html
+#	modified:   web/target/surefire-reports/old/Suite/toc.html
+#	modified:   web/target/surefire-reports/old/index.html
+#	modified:   web/target/surefire-reports/testng-results.xml
+#	modified:   web/target/test-classes/WebdriverPro/web/Script.class
+#	modified:   web/target/test-classes/WebdriverPro/web/framework/Elements.class
+#	modified:   web/target/test-classes/WebdriverPro/web/framework/PropertyManager.class
+#	modified:   web/target/test-classes/WebdriverPro/web/framework/WebdriverManager.class
+#	modified:   web/target/test-classes/WebdriverPro/web/framework/WebdriverTestBase.class
+#	modified:   web/target/test-classes/WebdriverPro/web/framework/utils/DataProviderClass.class
+#	modified:   web/target/test-classes/WebdriverPro/web/framework/utils/ExcelReader.class
+#	modified:   web/target/test-classes/WebdriverPro/web/framework/utils/JavaUtils$Days.class
+#	modified:   web/target/test-classes/WebdriverPro/web/framework/utils/JavaUtils.class
+#	modified:   web/target/test-classes/WebdriverPro/web/pages/HomePage.class
+#	modified:   web/target/test-classes/WebdriverPro/web/tests/DataProviderClassTest.class
+#	modified:   web/target/test-classes/WebdriverPro/web/tests/DataProviderInTest.class
+#	modified:   web/target/test-classes/WebdriverPro/web/tests/LoginTest.class
+#	modified:   web/target/test-classes/WebdriverPro/web/tests/ParameterTestNG.class
+#	modified:   web/target/test-classes/logFile.log
+#	modified:   web/test-output/Default suite/Default test.html
+#	modified:   web/test-output/Default suite/Default test.xml
+#	modified:   web/test-output/Default suite/testng-failed.xml
+#	new file:   web/test-output/Group suite file/testNG groups tests.html
+#	new file:   web/test-output/Group suite file/testNG groups tests.xml
+#	new file:   web/test-output/Method TestNg suite file/Method suite tests.html
+#	new file:   web/test-output/Method TestNg suite file/Method suite tests.xml
+#	new file:   web/test-output/Package Suite File/Test.html
+#	new file:   web/test-output/Package Suite File/Test.xml
+#	new file:   web/test-output/Simple TestNg suite file/simple TestNg suite tests.html
+#	new file:   web/test-output/Simple TestNg suite file/simple TestNg suite tests.xml
+#	modified:   web/test-output/emailable-report.html
+#	modified:   web/test-output/index.html
+#	copied:     web/test-output/junitreports/TEST-WebdriverPro.web.tests.LoginTest.xml -> web/test-output/junitreports/TEST-WebdriverPro.web.framework.Testing.xml
+#	modified:   web/test-output/junitreports/TEST-WebdriverPro.web.tests.LoginTest.xml
+#	new file:   web/test-output/junitreports/TEST-WebdriverPro.web.tests.testNGpackage.LogInTest.xml
+#	new file:   web/test-output/junitreports/TEST-WebdriverPro.web.tests.testNGpackage.RegisterUserTest.xml
+#	new file:   web/test-output/junitreports/TEST-WebdriverPro.web.tests.testNGpackage.UserTypeTests.xml
+#	modified:   web/test-output/old/Default suite/classes.html
+#	modified:   web/test-output/old/Default suite/methods-alphabetical.html
+#	modified:   web/test-output/old/Default suite/methods-not-run.html
+#	modified:   web/test-output/old/Default suite/methods.html
+#	modified:   web/test-output/old/Default suite/testng.xml.html
+#	modified:   web/test-output/old/Default suite/toc.html
+#	new file:   web/test-output/old/Group suite file/classes.html
+#	new file:   web/test-output/old/Group suite file/groups.html
+#	new file:   web/test-output/old/Group suite file/index.html
+#	new file:   web/test-output/old/Group suite file/main.html
+#	new file:   web/test-output/old/Group suite file/methods-alphabetical.html
+#	new file:   web/test-output/old/Group suite file/methods-not-run.html
+#	new file:   web/test-output/old/Group suite file/methods.html
+#	new file:   web/test-output/old/Group suite file/reporter-output.html
+#	new file:   web/test-output/old/Group suite file/testNG groups tests.properties
+#	new file:   web/test-output/old/Group suite file/testng.xml.html
+#	new file:   web/test-output/old/Group suite file/toc.html
+#	new file:   web/test-output/old/Method TestNg suite file/Method suite tests.properties
+#	new file:   web/test-output/old/Method TestNg suite file/classes.html
+#	new file:   web/test-output/old/Method TestNg suite file/groups.html
+#	new file:   web/test-output/old/Method TestNg suite file/index.html
+#	new file:   web/test-output/old/Method TestNg suite file/main.html
+#	new file:   web/test-output/old/Method TestNg suite file/methods-alphabetical.html
+#	new file:   web/test-output/old/Method TestNg suite file/methods-not-run.html
+#	new file:   web/test-output/old/Method TestNg suite file/methods.html
+#	new file:   web/test-output/old/Method TestNg suite file/reporter-output.html
+#	new file:   web/test-output/old/Method TestNg suite file/testng.xml.html
+#	new file:   web/test-output/old/Method TestNg suite file/toc.html
+#	new file:   web/test-output/old/Package Suite File/Test.properties
+#	new file:   web/test-output/old/Package Suite File/classes.html
+#	new file:   web/test-output/old/Package Suite File/groups.html
+#	new file:   web/test-output/old/Package Suite File/index.html
+#	new file:   web/test-output/old/Package Suite File/main.html
+#	new file:   web/test-output/old/Package Suite File/methods-alphabetical.html
+#	new file:   web/test-output/old/Package Suite File/methods-not-run.html
+#	new file:   web/test-output/old/Package Suite File/methods.html
+#	new file:   web/test-output/old/Package Suite File/reporter-output.html
+#	new file:   web/test-output/old/Package Suite File/testng.xml.html
+#	new file:   web/test-output/old/Package Suite File/toc.html
+#	new file:   web/test-output/old/Simple TestNg suite file/classes.html
+#	new file:   web/test-output/old/Simple TestNg suite file/groups.html
+#	new file:   web/test-output/old/Simple TestNg suite file/index.html
+#	new file:   web/test-output/old/Simple TestNg suite file/main.html
+#	new file:   web/test-output/old/Simple TestNg suite file/methods-alphabetical.html
+#	new file:   web/test-output/old/Simple TestNg suite file/methods-not-run.html
+#	new file:   web/test-output/old/Simple TestNg suite file/methods.html
+#	new file:   web/test-output/old/Simple TestNg suite file/reporter-output.html
+#	new file:   web/test-output/old/Simple TestNg suite file/simple TestNg suite tests.properties
+#	new file:   web/test-output/old/Simple TestNg suite file/testng.xml.html
+#	new file:   web/test-output/old/Simple TestNg suite file/toc.html
+#	modified:   web/test-output/old/index.html
+#	modified:   web/test-output/testng-failed.xml
+#	modified:   web/test-output/testng-results.xml
+#
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Package Suite File" parallel="false">
+
+	<test name="Test">
+
+		<packages>
+			<package name="WebdriverPro.web.tests.testNGpackage" />
+
+			<!-- can have muliple packages here <package name="WebdriverPro.web.tests.testNGpackage"/> 
+				<package name="WebdriverPro.web.tests.testNGpackage"/> -->
+		</packages>
+
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

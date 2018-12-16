@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Simple TestNg suite file">
+
+	<test name="simple TestNg suite tests">
+
+		<classes>
+
+			<class name="WebdriverPro.web.tests.testNGpackage.LogInTest" />
+			<class name="WebdriverPro.web.tests.testNGpackage.RegisterUserTest" />
+			<class name="WebdriverPro.web.tests.testNGpackage.UserTypeTests" />
+
+		</classes>
+
+	</test>
+
+</suite>
